@@ -24,10 +24,10 @@ Transitioning this project from a simple Python script to a fully decoupled REST
 └── README.md             # Project documentation
 
 
-# Available Endpoints
-**GET	/movies**	Returns a list of all available movies.
-**GET	/showtimes**	Returns all scheduled showtimes.
-**GET	/showtimes/{id}/seats**	Returns a list of available seats for a specific showtime.
-**POST	/bookings**	Books a ticket (Requires JSON body: user_id, showtime_id, seat_id).
-**GET	/users/{id}/bookings**	Returns all active tickets for a specific user.
-**DELETE	/bookings/{id}**	Cancels a specific booking and frees up the seat.
+Available Endpoints
+GET	/movies	Returns a list of all available movies.
+GET	/showtimes	Returns all scheduled showtimes.
+GET	/showtimes/{id}/seats	Returns a list of available seats for a specific showtime.
+POST	/bookings	Books a ticket (Requires JSON body: user_id, showtime_id, seat_id).
+GET	/users/{id}/bookings	Returns all active tickets for a specific user.
+DELETE	/bookings/{id}	Cancels a specific booking and frees up the seat.
