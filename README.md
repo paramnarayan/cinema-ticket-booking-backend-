@@ -16,13 +16,12 @@ Transitioning this project from a simple Python script to a fully decoupled REST
 * **Dynamic Seat Filtering:** Sub-queries automatically cross-reference physical theater seats against active bookings to return only available seats.
 
 # Project Structure
-
+```text
 ├── main.py               # The FastAPI application and core routing logic
 ├── setup_full_db.py      # Database initialization and seeding script
 ├── requirements.txt      # Python dependencies
 ├── .gitignore            # Ignored files (database, cache)
 └── README.md             # Project documentation
-
 
 
 # Available Endpoints
